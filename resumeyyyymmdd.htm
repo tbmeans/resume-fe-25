@@ -9,7 +9,7 @@
     
     <title>Your Name resume</title>
 
-		<style>
+    <style>
       body {
         margin: 10%;
         padding: 1%;
@@ -72,6 +72,10 @@
       .rowhead {
         padding-right: 2em;
       }
+
+      .noBullets {
+        list-style-type: none;
+      }
     </style>
 
   </head>
@@ -84,36 +88,38 @@
     </header>
     <main>
       <section>
-        <h3><i>Introduction</i></h3>
-        <div id="bubblebox">
-          <div class="bubble">
-            <span>
-              Testimonial quote.
-            </span>
-          </div>
-        </div>
+        <h3><i>Languages &amp; Technologies</i></h3>
+        <table>
+          <tbody><tr>
+            <td class="rowhead">Languages:</td><td>Lang, Lang</td>
+          </tr>
+          <tr>
+            <td class="rowhead">Technologies:</td><td>Tech, Tech</td>
+          </tr>
+          <tr>
+            <td class="rowhead">Working knowledge:</td><td>Lang, Lang, Lang, Lang, Lang, Lang</td>
+          </tr>
+        </tbody></table>
       </section>
       <section>
-        <h3><i>Work Experience Highlights</i></h3>
+        <h3><i>Work Experience</i></h3>
         <span>
-          <u><i>Role Title, Employer, YYYY-YYYY</i></u>
+          <b><i>Role Title, Employer, YYYY-YYYY</i></b>
         </span>
         <ul>
-          <li>Highlighted brief summary of activity showing transferable skill</li>
-          <li>Highlighted brief summary of activity showing transferable skill</li>
-          <li>Highlighted brief summary of activity showing transferable skill</li>
+          <li>2-word name of activity from job description</li>
+          <li>2-word name of activity from job description</li>
+          <li>2-word name of activity from job description</li>
+					<li>2-word name of activity from job description</li>
         </ul>
-        <span>
-          <u><i>&lt;Role Title&gt; for &lt;Place Of Employment&gt;, YYYY-YYYY</i></u>
-        </span>
-        <ul>
-          <li>Highlighted brief summary of activity showing transferable skill</li>
-          <li>Clarifying note about Employer/Location</li>
-        </ul>
+      </section>
+			<section>
+        <h3><i>Publications</i></h3>
+        <p>LastName, FI., LastName, FI., LastName, FI., LastName, FI. "Article title."<br>&emsp;&nbsp;<i>Journal Name</i>, vol. ###, no. x, YYYY, pp. ####-##.</p>
       </section>
       <section>
         <h3><i>Education</i></h3>
-        <span>University of State-City: Degree Initials, Major, YYYY; Degree Initials, Major, YYYY</span>
+        <ul class="noBullets"><i><li><b>University of State-City</b></li><li>&lt;Degree Initials&gt; in &lt;Major&gt;</li><li>&lt;Degree Initials&gt; in &lt;Major&gt;</li></i></ul>
       </section>
 
     </main>
