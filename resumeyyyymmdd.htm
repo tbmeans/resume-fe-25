@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     
     <title>Your Name resume</title>
 
@@ -65,12 +65,9 @@
         box-shadow: 4px 4px 2px lightgray;
       }
 
-      table {
-        margin-right: 0;
-      }
-
-      .rowhead {
-        padding-right: 2em;
+      .skill-table {
+		display: grid;
+		grid-template-columns: 11.2rem 1fr;
       }
 
       .noBullets {
@@ -89,17 +86,14 @@
     <main>
       <section>
         <h3><i>Languages &amp; Technologies</i></h3>
-        <table>
-          <tbody><tr>
-            <td class="rowhead">Languages:</td><td>Lang, Lang</td>
-          </tr>
-          <tr>
-            <td class="rowhead">Technologies:</td><td>Tech, Tech</td>
-          </tr>
-          <tr>
-            <td class="rowhead">Working knowledge:</td><td>Lang, Lang, Lang, Lang, Lang, Lang</td>
-          </tr>
-        </tbody></table>
+		<div class="skill-table">
+			<div>Languages:</div>
+			<div>Lang, Lang</div>
+			<div>Technologies:</div>
+			<div>Framework, Runtime Env, CMS, SSG, Code Library</div>
+			<div>Working knowledge:</div>
+			<div>Lang, Lang, Lang, Framework, Shell, Lang, Lang</div>
+		</div>
       </section>
       <section>
         <h3><i>Work Experience</i></h3>
@@ -113,13 +107,13 @@
 					<li>2-word name of activity from job description</li>
         </ul>
       </section>
-			<section>
-        <h3><i>Publications</i></h3>
-        <p>LastName, FI., LastName, FI., LastName, FI., LastName, FI. "Article title."<br>&emsp;&nbsp;<i>Journal Name</i>, vol. ###, no. x, YYYY, pp. ####-##.</p>
-      </section>
       <section>
         <h3><i>Education</i></h3>
-        <ul class="noBullets"><i><li><b>University of State-City</b></li><li>&lt;Degree Initials&gt; in &lt;Major&gt;</li><li>&lt;Degree Initials&gt; in &lt;Major&gt;</li></i></ul>
+        <ul class="noBullets"><i>
+			<li><b>University of State-City</b></li>
+			<li>&lt;Degree Initials&gt; in &lt;Major&gt;</li>
+			<li>&lt;Degree Initials&gt; in &lt;Major&gt;</li>
+		</i></ul>
       </section>
 
     </main>
@@ -130,7 +124,7 @@
 
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="bootstrap.bundle.min.js.download" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
   
 </body></html>
