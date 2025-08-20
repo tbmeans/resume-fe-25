@@ -76,9 +76,7 @@
               <p class="lead">
                 </p><blockquote>
                   Line 1, 80 chars<br>
-                  Line 2, 80 chars<br>
-                  Line 3, 80 chars<br>
-                  Final line
+                  Line 2, 80 chars
                 </blockquote>
               <p></p>
             </div>
@@ -109,7 +107,7 @@
                     <span class="dept-name">Name of division w/in dept</span><span>,</span>
                     <span class="start-date">MMM YYYY -</span>
                     <span class="end-date">MMM YYYY</span>
-                    <ul class="list-unstyled ms-4">
+                    <ul class="list-unstyled ms-4 removed">
                       <li>
                         <span class="fw-bold fst-italic my-employer">Local gov't employer name</span><span>,</span>
                         <span class="work-addy">Agency/Dept/Branch Name, Street, City, State Zip</span>
@@ -121,7 +119,32 @@
                     <span class="dept-name">Name of division w/in dept</span><span>,</span>
                     <span class="start-date">MMM YYYY -</span>
                     <span class="end-date">MMM YYYY</span>
+                    <ul class="list-unstyled ms-4 removed">
+                      <li>
+                        <span class="fw-bold fst-italic my-employer">Local gov't employer name</span><span>,</span>
+                        <span class="work-addy">Agency/Dept/Branch Name, Street, City, State Zip</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="delivery-page-role-1">
+                    <span class="fw-bold fst-italic my-role">My role</span><span>,</span>
+                    <span class="dept-name">Name of division w/in dept</span><span>,</span>
+                    <span class="start-date">MMM YYYY -</span>
+                    <span class="end-date">MMM YYYY</span>
+                    <ul class="list-unstyled ms-4 removed">
+                      <li>
+                        <span class="fw-bold fst-italic my-employer">Local gov't employer name</span><span>,</span>
+                        <span class="work-addy">Agency/Dept/Branch Name, Street, City, State Zip</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="all-roles-same-location">
+                    <span class="fw-bold fst-italic my-role removed"></span><span><!--comma placeholder --></span>
+                    <span class="dept-name removed">Name of division w/in dept</span><span><!--comma placeholder --></span>
+                    <span class="start-date removed">MMM YYYY -</span>
+                    <span class="end-date removed">MMM YYYY</span>
                     <ul class="list-unstyled ms-4">
+                      <li>Location of all above roles:</li>
                       <li>
                         <span class="fw-bold fst-italic my-employer">Local gov't employer name</span><span>,</span>
                         <span class="work-addy">Agency/Dept/Branch Name, Street, City, State Zip</span>
@@ -251,28 +274,22 @@
             <div class="row">
               <div class="col-sm ms-3">
                 <ul class="list-unstyled">
-                  <li>
-                    <div>
-                      <span class="fw-bold fst-italic my-role">My Role</span>
-                    </div>
+                  <li id="vol-role-1">
+                    <span class="fw-bold fst-italic my-role">My role</span><span>,</span>
+                    <span class="start-date">MMM YYYY -</span>
+                    <span class="end-date"></span>
                     <ul class="list-unstyled ms-4">
-                      <div>
-                        <span class="fw-bold fst-italic my-employer">My employer or host org</span>
+                      <li>
+                        <span class="fw-bold fst-italic my-employer">My employer or host org</span><span>,</span>
                         <span class="work-addy">Physical or virtual address</span>
-                      </div>
-                      <div>
-                        <span class="start-date">MMM YYYY -</span>
-                        <span class="end-date"></span>
-                      </div>
-                      <ul class="my-achievements">
-                        <li>Standout activity or project using skill(s), YYYY-YYYY</li>
-                        <ul>
-                          <li>Specific task or achievement w/in activity/project</li>
-                          <li>Specific task or achievement w/in activity/project</li>
-                        </ul>
-                        <li>Standout achievement with timeframe for occurrence</li>
-                        <li>Self-guided activity or project using skill(s)</li>
-                      </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="vol-achievements-1">
+                    <ul class="my-achievements ms-4">
+                      <li>Brief description of activity or project using skill(s), YYYY-YYYY</li>
+                      <li>Standout achievement with timeframe for occurrence</li>
+                      <li>Self-guided activity or project using skill(s)</li>
                     </ul>
                   </li>
                 </ul>
@@ -281,29 +298,29 @@
             <div class="row">
               <div class="col-sm ms-3">
                 <ul class="list-unstyled">
-                  <li>
-                    <span class="fw-bold fst-italic my-role">Various roles</span>
-                    <br>
+                  <li id="vol-ic-combo-role-1">
+                    <span class="fw-bold fst-italic my-role">Various roles</span><span>,</span>
+                    <span class="start-date">MMM YYYY -</span>
+                    <span class="end-date">MMM YYYY</span>
                     <ul class="list-unstyled ms-4">
-                      <span class="fw-bold fst-italic my-employer">My employer or host org</span>
-                      <span class="work-addy">Street, City, State Zip</span>
-                      <br>
-                      <span class="start-date">MMM YYYY -</span>
-                      <span class="end-date">MMM YYYY</span>
-                      <ul class="list-unstyled my-achievements">
-                        <li>
-                          <span class="fw-bold fst-italic my-role-1">My role, YYYY-YYYY</span>
-                          <ul class="ms-4">
-                            <li>Brief description of activity or project using skill(s)</li>
-                          </ul>
-                        </li>
-                        <li>
-                          <span class="fw-bold fst-italic my-role-2">My role, YYYY-YYYY</span>
-                          <ul class="ms-4">
-                            <li>Brief description of activity or project using skill(s)</li>
-                          </ul>
-                        </li>
-                      </ul>
+                      <li>
+                        <span class="fw-bold fst-italic my-employer">My employer or host org</span>
+                        <span class="work-addy">Street, City, State Zip</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="vol-ic-combo-achievements-1">
+                    <ul class="my-achievements ms-4">
+                      <li id="vol-role-2">
+                        <span class="fw-bold fst-italic">My role</span><span>, YYYY-YYYY</span>
+                        <br>
+                        <span>Brief description of activity or project using skill(s)</span>
+                      </li>
+                      <li id="ic-role-1">
+                        <span class="fw-bold fst-italic my-role-2">My role</span><span>, YYYY-YYYY</span>
+                        <br>
+                        <span>Brief description of activity or project using skill(s)</span>
+                      </li>
                     </ul>
                   </li>
                 </ul>
